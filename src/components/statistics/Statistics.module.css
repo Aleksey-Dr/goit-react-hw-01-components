@@ -1,0 +1,39 @@
+.statistics {
+    box-sizing: border-box;
+    width: 475px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #2F4F4F;
+}
+
+.stat-list {
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgb(206, 223, 18);
+    text-align: center;
+}
+
+.item {
+    padding: 18px;
+    width: 95px;
+}
+
+.label {
+    font-size: 18px;
+    display: block;
+    color: rgb(115, 115, 115);
+}
+
+.percentage {
+    font-size: 24px;
+    color: rgb(115, 115, 115);
+}

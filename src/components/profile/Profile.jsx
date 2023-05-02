@@ -57,6 +57,7 @@ const Profile = ({
     </div>);
 };
 
+// Added a cheks by the PropTypes for types of the props of the arrow function "Profile".
 Profile.propTypes = {
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
