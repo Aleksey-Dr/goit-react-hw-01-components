@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    padding: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.status {
+    width: 22px;
+    height: 22px;
+    margin-right: 14px;
+    background-color:rgb(241, 79, 103);
+    border-radius: 50%;
+}
+
+.isOnline {
+    background-color:rgb(98, 202, 50);
+}
+
+.avatar {
+    width: 80px;
+}
+
+.name {
+    font-size: 32px;
+    margin-left: 14px;
+}

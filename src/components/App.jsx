@@ -1,14 +1,17 @@
 import Profile from './profile/Profile'
 import Statistics from './statistics/Statistics'
+import FriendList from './friendlist/FriendList'
+import FriendListItem from './friendListItem/FriendListItem'
 // Added import the user.json in an App.jsx
 import user from '../user.json';
 import data from '../data.json';
+import friends from '../friends.json';
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -31,6 +34,15 @@ export const App = () => {
         // title='Upload stats'
         stats={data}
       />
+
+      <FriendList>
+        {friends.map(friend => <FriendListItem
+          avatar={friend.avatar}
+          name={friend.name}
+          isOnline={friend.isOnline}
+          key={friend.id}
+        />)}
+      </FriendList>
     </div>
   );
 };

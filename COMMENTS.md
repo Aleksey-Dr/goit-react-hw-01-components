@@ -37,7 +37,7 @@ Task 2
 8. Added import the data.json in an App.jsx.
 9. Added import PropTypes from package 'prop-types' to the Statistics.jsx file.
 10. Create a Statistics.module.css file in the "statistics" folder for styles.
-11. Added import "clsx" to the Statistics.jsx from package "clsx"
+11. Added import "clsx" to the Statistics.jsx from package "clsx".
 12. Import css styles from the Statistics.module.css to the Statistics.jsx.
 
 02.05.2023
@@ -48,3 +48,29 @@ Task 2
 16. Added default values for props of the arrow function "Statistics".
 17. Changed values of classNames of elements in the arrow function "Statistics" by classes from Statistics.module.css.
 18. Added classes of styles in the Statistics.module.css for the elements the arrow function "Statistics".
+
+Task 3
+1. Added a file friends.json in the "src" folder.
+2. Created a "friendlist" folder in the "components" folder.
+3. Created a FriendList.jsx file in the "friendlist" folder.
+4. Created an arrow function "FriendList" in the FriendList.jsx file.
+   The arrow function "FriendList" return the html markup from Template.
+5. Added export default for the function "FriendList".
+6. Added props "children" for the function "FriendList".
+7. Added import the FriendList.jsx in an App.jsx.
+8. Added a component <FriendList /> in the App.jsx.
+9. Added import the friends.json in the App.jsx.
+10. Created a "friendListItem" folder in the "components" folder.
+11. Created a FriendListItem.jsx file in the "friendListItem" folder.
+12. Created an arrow function "FriendListItem" in the FriendListItem.jsx file.
+    The arrow function "FriendListItem" return the html markup from Template.
+12. Added props for the function "FriendListItem".
+13. Added export default for the function "FriendListItem".
+14. Added import PropTypes from package 'prop-types' to the FriendListItem.jsx file.
+15. Added import the FriendListItem.jsx in an App.jsx.
+16. Added render of prop "children" in the function "FriendList".
+17. Added a component <FriendListItem /> in the App.jsx to the component <FriendList />.
+18. Added import "clsx" to the FriendListItem.jsx and FriendList.jsx from package "clsx".
+19. Changed values of classNames of elements in the arrow function "FriendList", "FriendListItem" by classes from FriendList.module.css, FriendListItem.module.css.
+20. Added classes of styles in the FriendList.module.css, FriendListItem.module.css for the elements the arrow function "FriendList", "FriendListItem".
+21. Added a cheks by the PropTypes for types of the props of the arrow function "FriendListItem".
