@@ -74,3 +74,23 @@ Task 3
 19. Changed values of classNames of elements in the arrow function "FriendList", "FriendListItem" by classes from FriendList.module.css, FriendListItem.module.css.
 20. Added classes of styles in the FriendList.module.css, FriendListItem.module.css for the elements the arrow function "FriendList", "FriendListItem".
 21. Added a cheks by the PropTypes for types of the props of the arrow function "FriendListItem".
+
+03.05.2023
+Task 4
+1. Added a file transactions.json in the "src" folder.
+2. Created a "transactionHistory" folder in the "components" folder.
+3. Created a TransactionHistory.jsx file in the "transactionHistory" folder.
+4. Created an arrow function "TransactionHistory" in the TransactionHistory.jsx file.
+5. Added a prop "items" for the function "TransactionHistory".
+6. Added import the TransactionHistory.jsx in an App.jsx.
+7. Added a component <TransactionHistory /> in the App.jsx.
+8. Added render a collection elements by method Array.prototype.map() to the function "TransactionHistory".
+9. Added props from the prop "items" (transactions.json) for a callback function in the items.map() in the function "TransactionHistory".
+10. Added import the transactions.json in the App.jsx.
+11. Added default values for props of the function "TransactionHistory".
+12. Create a TransactionHistory.module.css file in the "transactionHistory" folder for styles.
+13. Import css styles from the TransactionHistory.module.css to the TransactionHistory.jsx.
+14. Added import "clsx" to the TransactionHistory.jsx from package "clsx".
+15. Changed values of classNames of elements in the arrow function "TransactionHistory".
+16. Added import PropTypes from package 'prop-types' to the TransactionHistory.jsx file.
+17. Added a cheks by the PropTypes for types of the props of the arrow function "TransactionHistory".

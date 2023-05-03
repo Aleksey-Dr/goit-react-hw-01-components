@@ -1,0 +1,31 @@
+.transaction-history {
+    box-sizing: border-box;
+    width: 768px;
+    margin-bottom: 54px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    width: 255px;
+}
+
+.thead {
+    background-color: rgb(5, 174, 171);
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.tr-head th {
+    padding: 16px;
+}
+
+.tbody {
+    color: #757575;
+}
+
+.tr-body td {
+    padding: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

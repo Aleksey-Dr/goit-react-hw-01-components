@@ -1,11 +1,13 @@
-import Profile from './profile/Profile'
-import Statistics from './statistics/Statistics'
-import FriendList from './friendlist/FriendList'
-import FriendListItem from './friendListItem/FriendListItem'
+import Profile from './profile/Profile';
+import Statistics from './statistics/Statistics';
+import FriendList from './friendlist/FriendList';
+import FriendListItem from './friendListItem/FriendListItem';
+import TransactionHistory from './transactionHistory/TransactionHistory';
 // Added import the user.json in an App.jsx
 import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
+import items from '../transactions.json';
 
 export const App = () => {
   return (
@@ -43,6 +45,11 @@ export const App = () => {
           key={friend.id}
         />)}
       </FriendList>
+
+      <TransactionHistory
+        // Pass arguments from the file transactions.json
+        items={items}
+      />
     </div>
   );
 };
